@@ -1,0 +1,221 @@
+desc: (none)
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=116268
+mem_heap_B=1000
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=116306
+mem_heap_B=2000
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=116344
+mem_heap_B=3000
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=116382
+mem_heap_B=4000
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=116420
+mem_heap_B=5000
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=116458
+mem_heap_B=6000
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=116496
+mem_heap_B=7000
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=116534
+mem_heap_B=8000
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=116572
+mem_heap_B=9000
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n1: 9000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 9000 0x108749: main (in /home/borgified/borgified/travisci_test/a.out)
+#-----------
+snapshot=10
+#-----------
+time=116610
+mem_heap_B=10000
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=116651
+mem_heap_B=12000
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=116685
+mem_heap_B=16000
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=116725
+mem_heap_B=20000
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=116766
+mem_heap_B=20000
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=peak
+n3: 20000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 10000 0x108749: main (in /home/borgified/borgified/travisci_test/a.out)
+ n2: 8000 0x108706: g (in /home/borgified/borgified/travisci_test/a.out)
+  n1: 4000 0x10871C: f (in /home/borgified/borgified/travisci_test/a.out)
+   n0: 4000 0x108765: main (in /home/borgified/borgified/travisci_test/a.out)
+  n0: 4000 0x10876A: main (in /home/borgified/borgified/travisci_test/a.out)
+ n1: 2000 0x108717: f (in /home/borgified/borgified/travisci_test/a.out)
+  n0: 2000 0x108765: main (in /home/borgified/borgified/travisci_test/a.out)
+#-----------
+snapshot=15
+#-----------
+time=116766
+mem_heap_B=19000
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=116800
+mem_heap_B=18000
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=116834
+mem_heap_B=17000
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=116868
+mem_heap_B=16000
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=116902
+mem_heap_B=15000
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=116936
+mem_heap_B=14000
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=116970
+mem_heap_B=13000
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=117004
+mem_heap_B=12000
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=117038
+mem_heap_B=11000
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=117072
+mem_heap_B=10000
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 10000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 8000 0x108706: g (in /home/borgified/borgified/travisci_test/a.out)
+  n1: 4000 0x10871C: f (in /home/borgified/borgified/travisci_test/a.out)
+   n0: 4000 0x108765: main (in /home/borgified/borgified/travisci_test/a.out)
+  n0: 4000 0x10876A: main (in /home/borgified/borgified/travisci_test/a.out)
+ n1: 2000 0x108717: f (in /home/borgified/borgified/travisci_test/a.out)
+  n0: 2000 0x108765: main (in /home/borgified/borgified/travisci_test/a.out)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
