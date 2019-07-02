@@ -3,5 +3,5 @@ install:
   - DD_API_KEY=$DD_API_KEY bash -c "$(curl -L https://raw.githubusercontent.com/DataDog/datadog-agent/master/cmd/agent/install_script.sh)"
 script:
   - ps -ef
-  - systemctl status datadog-agent
   - hostname
+  - n=0;until [ $n -ge 50 ]; do echo $n; n=$(( n+1 ));sleep 60; done
