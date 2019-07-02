@@ -1,7 +1,11 @@
 language: minimal
 install:
   - DD_API_KEY=$DD_API_KEY bash -c "$(curl -L https://raw.githubusercontent.com/DataDog/datadog-agent/master/cmd/agent/install_script.sh)"
+  - apt-get -y install valgrind
 script:
   - ps -ef
   - hostname
+  - gcc a.c
+  - valgrind --tool=massif --time-unit=B ./a.out
+  - find . -type f -name 'massif.out*' -exec ms_print {} \;
   - n=0;until [ $n -ge 50 ]; do echo $n; n=$(( n+1 ));sleep 60; done
